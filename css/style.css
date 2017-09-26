@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局样式*/
+*{
+   margin:0px auto;
+   padding:0px;
+   color:#333;
+   list-style:none;
+   font:16px "PingFang","Microsoft YaHei";
+   border:none;
+}
+img{
+	border:0px;
+	width:100%;
+}
+a
+{
+   font-size:20px;
+   color:#010101;
+   text-decoration:none;
+}
+a:hover{color:#1c5080;}
+body{background:#eee;}
+.clear{clear:both;}
+.wrap{width:100%;}
+
+/*头部样式*/
+header{
+	z-index:99;
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:auto;
+	background-color:#3fcccb;
+}
+header h1{
+	font-size:36px;
+	color:#fff;
+	text-align:center;
+	line-height:60px;
+}
+.content{width:100%;}
+.imgpage{
+	clear:both;
+	width:88px;
+    margin:50% 46% 0;
+	position:absolute;
+}
+.imgpage a{
+	display:block;
+	float:left;
+	width:40px;
+	height:5px;
+	margin:0 2px;
+	background-color:#eee;
+}
+.imgpage a:hover{background-color:#3fcccb;}
+.imgpage .thisimg{background-color:#3fcccb;}
+.onepart div{
+	min-width:220px;
+	width:29%;
+	margin:25px 0 25px 3.2%;
+	float:left;
+}
+.hot h1{
+	font-size:36px;
+	color:#333;
+	line-height:80px;
+	padding-left:3.2%;
+	height:80px;
+	width:100%;
+	background:#fff url(../images/susumebg.gif) top left no-repeat;
+}
+.hot div{
+	position:absolute;
+	width:93.6%;
+	margin:33% 3.2% 0;
+}
+.hot div p{
+	color:#fff;
+	font-size:32px;
+	text-align:center;
+	line-height:35px;
+}
+footer{
+	position:fixed;
+	bottom:0px;
+	height:98px;
+	background-color:#fff;
+	width:100%;
+}
+footer table{width:100%;}
+footer table img{
+	width:120px;
+	display:block;
+	margin:0 auto;
+}
